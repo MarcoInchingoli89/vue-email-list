@@ -9,6 +9,10 @@ Far comparire gli indirizzi email solamente quando sono stati tutti generati. */
 //Attraverso un ciclo for effettua 10 chiamate
 //Il valore andrà inserito nel markup in una ul
 
+//Bonus
+
+//Inserisci un V-Show che rende visibile l'array di mail sono quando ci sono tutti e 10 gli elementi
+
 const { createApp } = Vue
 
 createApp({

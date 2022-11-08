@@ -19,7 +19,8 @@
         <h1 class="text-center text-danger">Vue Email List</h1>
         <ul>
             <!-- random mail list -->
-            <li v-for="mail in mails">{{mail}}</li>
+            <!-- con V-Show la mail list viene stampata solo quando ci sono 10 elementi nell'array -->
+            <li v-for="mail in mails" v-show="mails.length === 10">{{mail}}</li>
         </ul>
     </div>
 
